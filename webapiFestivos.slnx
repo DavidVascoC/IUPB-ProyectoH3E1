@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="apiwebFestivos.core/apiwebFestivos.core.csproj" Id="0fde200f-eb8f-493f-a74e-084212ed24f6" />
+  <Project Path="apiwebFestivos.dominio/apiwebFestivos.dominio.csproj" Id="73b28a08-981c-465e-88ab-2350ada44789" />
+  <Project Path="apiwebFestivos.infraestructura/apiwebFestivos.infraestructura.csproj" Id="f5d11d75-51a7-429a-93fe-294b79bac33d" />
   <Project Path="webapiFestivos/webapiFestivos.csproj" />
 </Solution>
