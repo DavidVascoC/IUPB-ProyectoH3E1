@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FDE200F-EB8F-493F-A74E-084212ED24F6}|apiwebFestivos.core\\apiwebFestivos.core.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.core\\repositorios\\ipaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FDE200F-EB8F-493F-A74E-084212ED24F6}|apiwebFestivos.core\\apiwebFestivos.core.csproj|solutionrelative:apiwebfestivos.core\\repositorios\\ipaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|solutionrelative:apiwebfestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5D11D75-51A7-429A-93FE-294B79BAC33D}|apiwebFestivos.infraestructura\\apiwebFestivos.infraestructura.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.infraestructura\\dependencias\\apifestivocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5D11D75-51A7-429A-93FE-294B79BAC33D}|apiwebFestivos.infraestructura\\apiwebFestivos.infraestructura.csproj|solutionrelative:apiwebfestivos.infraestructura\\dependencias\\apifestivocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.dominio\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|solutionrelative:apiwebfestivos.dominio\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|solutionrelative:apiwebfestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73B28A08-981C-465E-88AB-2350ADA44789}|apiwebFestivos.dominio\\apiwebFestivos.dominio.csproj|c:\\users\\hp\\source\\repos\\webapifestivos\\apiwebfestivos.dominio\\tipofestivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IPaisRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.core\\Repositorios\\IPaisRepositorio.cs",
+              "RelativeDocumentMoniker": "apiwebFestivos.core\\Repositorios\\IPaisRepositorio.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.core\\Repositorios\\IPaisRepositorio.cs",
+              "RelativeToolTip": "apiwebFestivos.core\\Repositorios\\IPaisRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T17:25:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "apiFestivoContext.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.infraestructura\\Dependencias\\apiFestivoContext.cs",
               "RelativeDocumentMoniker": "apiwebFestivos.infraestructura\\Dependencias\\apiFestivoContext.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.infraestructura\\Dependencias\\apiFestivoContext.cs",
               "RelativeToolTip": "apiwebFestivos.infraestructura\\Dependencias\\apiFestivoContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-01T00:55:57.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Pais.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.dominio\\Pais.cs",
               "RelativeDocumentMoniker": "apiwebFestivos.dominio\\Pais.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "apiwebFestivos.dominio\\Pais.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T00:52:01.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T00:52:01.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Festivo.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.dominio\\Festivo.cs",
               "RelativeDocumentMoniker": "apiwebFestivos.dominio\\Festivo.cs",
@@ -69,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TipoFestivo.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\webapiFestivos\\apiwebFestivos.dominio\\TipoFestivo.cs",
               "RelativeDocumentMoniker": "apiwebFestivos.dominio\\TipoFestivo.cs",
@@ -77,8 +93,7 @@
               "RelativeToolTip": "apiwebFestivos.dominio\\TipoFestivo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T00:30:04.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T00:30:04.07Z"
             }
           ]
         }

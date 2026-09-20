@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("apiwebFestivos.dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78897b364a116111f468c685cd438d057d813ced")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dddc4dfb4f8cee5563ea16a7cd95a22932a97574")]
 [assembly: System.Reflection.AssemblyProductAttribute("apiwebFestivos.dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("apiwebFestivos.dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

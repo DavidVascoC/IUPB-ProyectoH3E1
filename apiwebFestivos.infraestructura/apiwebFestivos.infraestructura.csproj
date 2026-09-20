@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\apiwebFestivos.core\apiwebFestivos.core.csproj" />
     <ProjectReference Include="..\apiwebFestivos.dominio\apiwebFestivos.dominio.csproj" />
   </ItemGroup>
 
