@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "apiwebFestivos.dominio/1.0.0": {
+        "runtime": {
+          "apiwebFestivos.dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "apiwebFestivos.dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

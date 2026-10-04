@@ -2,6 +2,10 @@
 using apiwebFestivos.datos;
 using apiwebFestivos.dominio;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System;
 
 namespace apiwebFestivos.infraestructura.Repositorios
 {
@@ -61,6 +65,48 @@ namespace apiwebFestivos.infraestructura.Repositorios
             await contexto.SaveChangesAsync();
 
             return true;
+        }
+
+        // Métodos añadidos para cumplir la interfaz IPaisRepositorio
+
+        public Task<IEnumerable<Pais>> ObtenerDatos()
+        {
+            // delega al método existente
+            return ObtenerTodos();
+        }
+
+        public async Task<Pais> Obtener(int Id)
+        {
+            // delega a ObtenerPorId; lanza si no existe para respetar la firma no nullable
+            var pais = await ObtenerPorId(Id);
+            if (pais == null)
+                throw new KeyNotFoundException($"País con id {Id} no encontrado.");
+            return pais;
+        }
+
+        public async Task<IEnumerable<Pais>> Buscar(int IndiceDato, string Texto)
+        {
+            // Implementación simple: buscar por nombre. Ajustar según la semántica real de IndiceDato.
+            if (string.IsNullOrWhiteSpace(Texto))
+                return await ObtenerTodos();
+
+            return await contexto.paises
+                .Where(p => EF.Functions.Like(p.Nombre, $"%{Texto}%"))
+                .ToListAsync();
+        }
+
+        public Task<Pais> Agregar(Pais Seleccion)
+        {
+            // delega a Crear
+            return Crear(Seleccion);
+        }
+
+        public async Task<Pais> Modificar(Pais Seleccion)
+        {
+            var ok = await Actualizar(Seleccion);
+            if (!ok)
+                throw new KeyNotFoundException($"País con id {Seleccion.Id} no encontrado.");
+            return Seleccion;
         }
     }
 }

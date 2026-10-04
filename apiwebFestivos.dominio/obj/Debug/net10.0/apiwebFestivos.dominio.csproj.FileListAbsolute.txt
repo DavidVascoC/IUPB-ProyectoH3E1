@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\bin\Debug\net10.0\apiwebFestivos.dominio.deps.json
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\bin\Debug\net10.0\apiwebFestivos.dominio.dll
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\bin\Debug\net10.0\apiwebFestivos.dominio.pdb
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.AssemblyInfo.cs
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.sourcelink.json
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.dll
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\refint\apiwebFestivos.dominio.dll
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFestivos.dominio.pdb
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\ref\apiwebFestivos.dominio.dll
+C:\Users\HP\source\repos\webapiFestivos\apiwebFestivos.dominio\obj\Debug\net10.0\apiwebFe.843AC5D4.Up2Date

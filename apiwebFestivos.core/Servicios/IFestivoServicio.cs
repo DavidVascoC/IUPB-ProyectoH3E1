@@ -1,6 +1,6 @@
 ﻿using apiwebFestivos.dominio;
 
-namespace apiwebFestivos.core.Servicios
+namespace apiwebFestivos.core.servicios
 {
     public interface IFestivoServicio
     {

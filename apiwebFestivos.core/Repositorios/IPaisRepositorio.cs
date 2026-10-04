@@ -6,16 +6,10 @@ namespace apiwebFestivos.core.Repositorios
 {
     public interface IPaisRepositorio
     {
-
-        Task<IEnumerable<Pais>> ObtenerDatos();
-        Task<Pais> Obtener(int Id);
-
-        Task<IEnumerable<Pais>> Buscar(int IndiceDato, string Texto);
-
-        Task<Pais> Agregar(Pais Seleccion);
-
-        Task<Pais> Modificar(Pais Seleccion);
-
+        Task<IEnumerable<Pais>> ObtenerTodos();
+        Task<Pais?> ObtenerPorId(int id);
+        Task<Pais> Crear(Pais pais);
+        Task<bool> Actualizar(Pais pais);
         Task<bool> Eliminar(int id);
     }
 }
