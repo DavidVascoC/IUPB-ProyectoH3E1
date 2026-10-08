@@ -5,6 +5,114 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/calendario/verificar/{idPais}/{anio}/{mes}/{dia}": {
+      "get": {
+        "tags": [
+          "CalendarioControlador"
+        ],
+        "parameters": [
+          {
+            "name": "idPais",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "anio",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "mes",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "dia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/calendario/festivos/{idPais}/{anio}": {
+      "get": {
+        "tags": [
+          "CalendarioControlador"
+        ],
+        "parameters": [
+          {
+            "name": "idPais",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "anio",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoFechaDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoFechaDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FestivoFechaDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/festivos": {
       "get": {
         "tags": [
@@ -600,6 +708,20 @@
         },
         "additionalProperties": false
       },
+      "FestivoFechaDto": {
+        "type": "object",
+        "properties": {
+          "festivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Pais": {
         "required": [
           "nombre"
@@ -637,6 +759,9 @@
     }
   },
   "tags": [
+    {
+      "name": "CalendarioControlador"
+    },
     {
       "name": "FestivoControlador"
     },

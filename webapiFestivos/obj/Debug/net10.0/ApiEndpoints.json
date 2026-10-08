@@ -1,5 +1,67 @@
 [
   {
+    "ContainingType": "webapiFestivos.Controladores.CalendarioControlador",
+    "Method": "Listar",
+    "RelativePath": "api/calendario/festivos/{idPais}/{anio}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPais",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "anio",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[apiwebFestivos.core.Dtos.FestivoFechaDto, apiwebFestivos.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "webapiFestivos.Controladores.CalendarioControlador",
+    "Method": "Verificar",
+    "RelativePath": "api/calendario/verificar/{idPais}/{anio}/{mes}/{dia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPais",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "anio",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "webapiFestivos.Controladores.FestivoControlador",
     "Method": "ObtenerTodos",
     "RelativePath": "api/festivos",

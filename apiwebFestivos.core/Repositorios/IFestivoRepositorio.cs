@@ -7,6 +7,7 @@ namespace apiwebFestivos.core.Repositorios
 {
     public interface IFestivoRepositorio
     {
+        Task<IEnumerable<Festivo>> ObtenerPorPais(int idPais);
         Task<IEnumerable<Festivo>> ObtenerTodos();
 
         Task<Festivo?> ObtenerPorId(int id);

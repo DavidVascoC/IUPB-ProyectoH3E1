@@ -7,6 +7,12 @@ namespace apiwebFestivos.infraestructura.Repositorios
 {
     public class FestivoRepositorio : IFestivoRepositorio
     {
+        public async Task<IEnumerable<Festivo>> ObtenerPorPais(int idPais)
+        {
+            return await contexto.festivos
+                .Where(f => f.IdPais == idPais)
+                .ToListAsync();
+        }
         private readonly apiFestivoContext contexto;
 
         public FestivoRepositorio(apiFestivoContext contexto)

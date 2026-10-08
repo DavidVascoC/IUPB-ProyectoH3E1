@@ -19,6 +19,7 @@ namespace webapiFestivos.InyeccionDependencias
             servicios.AddScoped<IPaisRepositorio, PaisRepositorio>();
             servicios.AddScoped<ITipoFestivoRepositorio, TipoFestivoRepositorio>();
 
+            servicios.AddScoped<ICalendarioServicio, CalendarioServicio>();
             servicios.AddScoped<IFestivoServicio, FestivoServicio>();
             servicios.AddScoped<IPaisServicio, PaisServicio>();
             servicios.AddScoped<ITipoFestivoServicio, TipoFestivoServicio>();
