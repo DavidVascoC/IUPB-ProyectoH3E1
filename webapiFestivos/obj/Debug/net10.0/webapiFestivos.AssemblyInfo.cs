@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webapiFestivos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9240e5b8bad54ca18a9b199f4757e7f0724dfa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c478ac0971736ca3b3bdf503ac815c9f0c05e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("webapiFestivos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webapiFestivos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
